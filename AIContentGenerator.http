@@ -1,0 +1,12 @@
+@AIContentGenerator_HostAddress = http://localhost:5269
+
+POST {{AIContentGenerator_HostAddress}}/api/content/generate
+Content-Type: application/json
+
+{
+  "topic": "Artificial Intelligence",
+  "tone": "Professional",
+  "wordCount": 300
+}
+
+###
